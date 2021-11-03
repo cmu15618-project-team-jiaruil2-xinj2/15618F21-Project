@@ -13,9 +13,11 @@ Problems that suffer a heavy workload of computing can benefit from this paralle
 
 ## The challenge
 Implementing a fork-join framework is challenging for the following reasons. For one thing, in order to get the expected speedup, the scheduling cost should be as small as possible. And there are a lot of possible implementation strategies with their own tradeoffs. For instance, the number of works a thread should steal when it becomes idle is a key design problem. In addition, the implementation of the work queue also has a lot of possibilities, such as a single centralized queue or per-thread distributed queues with coarse/fine-grained locks or even lock-free synchronization. For another, from the users’ perspective, a simple and easy-to-use API is also important. Doing this project, we want to learn the internals of fork-join parallel paradigms, explore different implementation strategies and analyze their pros and cons.
-Workload:
+
+*Workload*:
 Using the fork-join paradigm, tasks may block to wait for the completion of their subtasks. Therefore, there are dependencies between parent tasks and sub-tasks. However, since the task abstraction is separated from the execution instances and we tend to use dynamic assignment and work-stealing strategy, it is less likely to have divergent execution.
-Constraints: 
+
+*Constraints*: 
 Using the fork-join paradigm, because of the nature of dynamic task generation, it is hard to anticipate the workload of each task and impractical to statically map each task to each parallelization instance. Therefore, a distributed work queue with a work-stealing strategy is a better solution.
 
 ## Resources
