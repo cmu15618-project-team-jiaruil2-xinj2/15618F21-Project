@@ -54,4 +54,4 @@ Week 5: measure the performance
 Week 6: finalize our design, write a report and prepare for the poster session
 ```
 ### Writeups
-![Project Proposal](https://github.com/xinj10/15618-project/blob/gh-pages/proposal.pdf)
+[Project Proposal](https://github.com/xinj10/15618-project/blob/gh-pages/proposal.pdf)
