@@ -9,6 +9,8 @@ We are going to implement a fork-join parallel framework with work-stealing dist
 ## Background 
 The fork-join model is a simple and efficient approach to executing parallel programs. This parallel pattern allocates threads and divides tasks recursively until every task reaches a certain granularity. Then all the threads execute programs parallel to each other with their own task. Threads will join at some subsequent points to continue sequential execution. 
 Problems that suffer a heavy workload of computing can benefit from this parallel scheme. Similar to divide-and-conquer algorithms, tasks are divided and are computed on multiple cores. Without much overhead, programs can be sped up at a significant level.
+![Image of fork-join model]
+(https://github.com/xinj10/15618-project/blob/gh-pages/iu.png)
 
 ## The challenge
 Implementing a fork-join framework is challenging for the following reasons. For one thing, in order to get the expected speedup, the scheduling cost should be as small as possible. And there are a lot of possible implementation strategies with their own tradeoffs. For instance, the number of works a thread should steal when it becomes idle is a key design problem. In addition, the implementation of the work queue also has a lot of possibilities, such as a single centralized queue or per-thread distributed queues with coarse/fine-grained locks or even lock-free synchronization. For another, from the users’ perspective, a simple and easy-to-use API is also important. Doing this project, we want to learn the internals of fork-join parallel paradigms, explore different implementation strategies and analyze their pros and cons.
@@ -41,33 +43,11 @@ We hope to learn more about the advantages and disadvantages of this parallel mo
 We would like to implement this framework in C++ 11. In addition, we plan to test our framework on GHC machines and PSC machines. Since GHC machines are free and have eight cores, they will be a good place for us to do benchmarking and initial testing on speedup. We also hope to see the performance with a larger number of cores, because we want to know if there is a bottleneck or other factors which limit the speedup. This is one of our focuses in this project, and that’s why we choose PSC to do some final testing. 
 
 ## Schedule
+```
 * Week 1: Literature review, API design + Thread pool
 * Week 2: Dedicated Distributed Queue
 * Week 3: work stealing I (intermediate checkpoint)
 * Week 4: work stealing II
 * Week 5: measure the performance
 * Week 6: finalize our design, write a report and prepare for the poster session
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
 ```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
