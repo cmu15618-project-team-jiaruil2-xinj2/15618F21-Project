@@ -1,7 +1,7 @@
 # Work stealing Fork Join Parallel Framework in C++ (Jiarui LI (jiaruil2), Xin JIN (xinj2))
 
 ## URL
-https://xinj10.github.io/15618-project/
+https://cmu15618-project-team-jiaruil2-xinj2.github.io/15618F21-Project/
 
 ## Summary
 We are going to implement a fork-join parallel framework with work-stealing distributed queues in C++. Also, we would like to analyze its performance, overhead, and bottleneck under different configurations, such as a child or continuation stealing, lock-free queue, etc.
