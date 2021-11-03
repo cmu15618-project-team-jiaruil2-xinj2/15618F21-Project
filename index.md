@@ -9,7 +9,7 @@ We are going to implement a fork-join parallel framework with work-stealing dist
 ## Background 
 The fork-join model is a simple and efficient approach to executing parallel programs. This parallel pattern allocates threads and divides tasks recursively until every task reaches a certain granularity. Then all the threads execute programs parallel to each other with their own task. Threads will join at some subsequent points to continue sequential execution. 
 Problems that suffer a heavy workload of computing can benefit from this parallel scheme. Similar to divide-and-conquer algorithms, tasks are divided and are computed on multiple cores. Without much overhead, programs can be sped up at a significant level.
-![Image of fork-join model](https://github.com/xinj10/15618-project/blob/gh-pages/iu.png)
+![Image of fork-join model](https://github.com/xinj10/15618-project/blob/gh-pages/iu.png?raw=true)
 (https://self-learning-java-tutorial.blogspot.com/2015/07/java-fork-join-framework.html)
 
 ## The challenge
