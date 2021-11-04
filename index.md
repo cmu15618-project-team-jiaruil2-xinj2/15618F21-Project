@@ -47,12 +47,12 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 
 ## Schedule
 ```
-Week 1: Literature review, API design + Thread pool
-Week 2: Dedicated Distributed Queue
-Week 3: work stealing I (intermediate checkpoint)
-Week 4: work stealing II + visualization tool/distributed extension I
-Week 5: measure the performance + visualization tool/distributed extension II
-Week 6: finalize our design, write a report and prepare for the poster session
+- [ ] Week 1: Literature review, API design + Thread pool
+- [ ] Week 2: Dedicated Distributed Queue
+- [ ] Week 3: work stealing I (intermediate checkpoint)
+- [ ] Week 4: work stealing II + visualization tool/distributed extension I
+- [ ] Week 5: measure the performance + visualization tool/distributed extension II
+- [ ] Week 6: finalize our design, write a report and prepare for the poster session
 ```
 ### Writeups
 [Project Proposal]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/}}assets/proposal.pdf)
