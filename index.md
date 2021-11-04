@@ -46,13 +46,12 @@ Further, we hope to learn more about the advantages and disadvantages of this pa
 We would like to implement this framework in C++ 11. In addition, we plan to test our framework on GHC machines and PSC machines. Since GHC machines are free and have eight cores, they will be a good place for us to do benchmarking and initial testing on speedup. We also hope to see the performance with a larger number of cores, because we want to know if there is a bottleneck or other factors which limit the speedup. This is one of our focuses in this project, and that’s why we choose PSC to do some final testing. 
 
 ## Schedule
-```
 - [ ] Week 1: Literature review, API design + Thread pool
 - [ ] Week 2: Dedicated Distributed Queue
 - [ ] Week 3: work stealing I (intermediate checkpoint)
 - [ ] Week 4: work stealing II + visualization tool/distributed extension I
 - [ ] Week 5: measure the performance + visualization tool/distributed extension II
 - [ ] Week 6: finalize our design, write a report and prepare for the poster session
-```
+
 ### Writeups
 [Project Proposal]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/}}assets/proposal.pdf)
