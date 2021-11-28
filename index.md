@@ -49,11 +49,11 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 - [x] Week 1: Literature review, API design + Thread pool
 - [x] Week 2: Dedicated Distributed Queue
 - [x] Week 3: work stealing I (intermediate checkpoint)
-- [ ] Week 4(a): lock-free queue optimization using dequeues as work queue
+- [x] Week 4(a): lock-free queue optimization using dequeues as work queue
 - [ ] Week 4(b): implementation of continuation stealing policy
 - [ ] Week 4(c): visualization tool I and distributed fork-join model
 - [ ] Week 4(d): analysis and reduction of tail latency 
-- [ ] Week 5(a): visualization tool II and sitributed fork-join model
+- [ ] Week 5(a): visualization tool II and distributed fork-join model
 - [ ] Week 5(b): analysis and reduction of tail latency
 - [ ] Week 5(c): use case analysis (sudoku)
 - [ ] Week 5(d): use case analysis (8 queen puzzle)
