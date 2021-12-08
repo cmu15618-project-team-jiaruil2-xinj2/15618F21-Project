@@ -2,7 +2,7 @@
 (Jiarui LI (jiaruil2), Xin JIN (xinj2))
 
 ## URL
-https://cmu15618-project-team-jiaruil2-xinj2.github.io/15618F21-Project/
+https://cmu15618-project-team-jiaruil2-xinj2.github.io/website/
 
 ## Summary
 We are going to implement a fork-join parallel framework with work-stealing distributed queues in C++. Also, we would like to analyze its performance, overhead, and bottleneck under different implementation strategies, such as a child or continuation stealing, lock-free queue, etc.
@@ -50,14 +50,14 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 - [x] Week 2: Dedicated Distributed Queue
 - [x] Week 3: work stealing I (intermediate checkpoint)
 - [x] Week 4(a): lock-free queue optimization using dequeues as work queue
-- [ ] Week 4(b): implementation of continuation stealing policy
-- [ ] Week 4(c): visualization tool I and distributed fork-join model
-- [ ] Week 4(d): analysis and reduction of tail latency 
-- [ ] Week 5(a): visualization tool II and distributed fork-join model
-- [ ] Week 5(b): analysis and reduction of tail latency
-- [ ] Week 5(c): use case analysis (sudoku)
-- [ ] Week 5(d): use case analysis (8 queen puzzle)
-- [ ] Week 6: finalize our design, write a report and prepare for the poster session
+- [x] Week 4(b): implementation of continuation stealing policy (single work queue) 
+- [x] Week 5(a): implementation of continuation stealing policy (distributed work queue)
+- [x] Week 5(b): implementation of sorting using fork-join model 
+- [x] Week 5(c): implementation of matrix multiplication using fork-join model
+- [ ] Week 6(a): use case analysis
+- [ ] Week 6(b): finalize our design 
+- [ ] Week 6(c): write the final report
+- [ ] Week 6(d): prepare for the poster session
 
 ### Writeups
 [Project Proposal]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/}}assets/proposal.pdf)
