@@ -54,10 +54,10 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 - [x] Week 5(a): implementation of continuation stealing policy (distributed work queue)
 - [x] Week 5(b): implementation of sorting using fork-join model 
 - [x] Week 5(c): implementation of matrix multiplication using fork-join model
-- [ ] Week 6(a): use case analysis
-- [ ] Week 6(b): finalize our design 
-- [ ] Week 6(c): write the final report
-- [ ] Week 6(d): prepare for the poster session
+- [x] Week 6(a): use case analysis
+- [x] Week 6(b): finalize our design 
+- [x] Week 6(c): write the final report
+- [x] Week 6(d): prepare for the poster session
 
 ### Writeups
 [Project Proposal]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/}}assets/proposal.pdf)
