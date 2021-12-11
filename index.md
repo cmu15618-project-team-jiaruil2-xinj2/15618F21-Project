@@ -49,6 +49,7 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 ![Speedup of Fibonacci Sequence](https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/assets/spfib.png?raw=true)
 ![Speedup of Matrix Multiplication](https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/assets/spmat.png?raw=true)
 ![Speedup of Quick Sort](https://github.com/cmu15618-project-team-jiaruil2-xinj2/15618F21-Project/blob/main/assets/spqs.png?raw=true)
+
 We used the computing resources in the Pittsburgh Supercomputing Cluster (PSC) to evalute our implementation. To be specific, we use the non-shared nodes in the cluster, which are equipped with two AMD EPYC 7742 processors (2.25-3.40 GHz, 2x64 cores), 256 GB RAM and 256MB L3 cache.
 
 We mainly used our framework to accelerate three typical applications. First is to recursively calculate the 50th term of the Fibonacci sequence, with the sequential calculation threshold equals to 30. Second is matrix multiplication. For simplicity, we tested our model with 2 2048x2048 identity matrix with granularity of 64x64. Third is to use quick sort to order 1,000,000,000 integers with the sequential calculation threshold equals to 1,000,000. We ran both the child-stealing policy and the our 2Q implementation on these applications in the cluster.
