@@ -64,4 +64,4 @@ We would like to implement this framework in C++ 11. In addition, we plan to tes
 
 [Milestone Report]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/website/blob/main/}}assets/milestone_report.pdf)
 
-[Test Page]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/website/blob/main/}}assets/tmp.md)
+[Final Project]({{https://github.com/cmu15618-project-team-jiaruil2-xinj2/website/blob/main/}}assets/final_report.pdf)
